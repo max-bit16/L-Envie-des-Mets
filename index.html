@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>L'Envie des Mets — Restaurant gastronomique à Grenoble · Cuisine de saison</title>
+    <meta name="description" content="Restaurant gastronomique au cœur de Grenoble. Cuisine française de marché, cuisinée à la minute, carte courte et saisonnière. Réservation au 04 76 47 32 56." />
+    <meta property="og:title" content="L'Envie des Mets — Grenoble" />
+    <meta property="og:description" content="Une petite salle feutrée, un chef en salle, une carte qui suit les saisons." />
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:locale" content="fr_FR" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400;1,9..144,500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "L'Envie des Mets",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "7 Rue Genissieu",
+        "addressLocality": "Grenoble",
+        "postalCode": "38000",
+        "addressCountry": "FR"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 45.1865028, "longitude": 5.7223681 },
+      "telephone": "+33476473256",
+      "servesCuisine": "Française, gastronomique",
+      "priceRange": "€€€",
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "12:00", "closes": "14:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "20:00", "closes": "22:00" }
+      ],
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "326" }
+    }
+    </script>
+  </body>
+</html>
