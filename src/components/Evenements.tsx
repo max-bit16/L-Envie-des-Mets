@@ -5,7 +5,7 @@ export default function Evenements() {
       <div className="evenements__overlay" aria-hidden="true" />
       <div className="frame evenements__inner">
         <div className="evenements__content reveal">
-          <span className="eyebrow">Événements &amp; Privatisation</span>
+          <span className="eyebrow">Événements · Privatisation</span>
           <h2>La salle, rien que pour vous —<br /><em>le soir qui compte.</em></h2>
           <div className="evenements__rule" aria-hidden="true" />
           <p>Groupes de 6 à 20 couverts&nbsp;: anniversaires, repas de famille, dîners entre collègues. Le service reste celui de la maison — attentif, personnel, à la minute.</p>
