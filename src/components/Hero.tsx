@@ -14,7 +14,7 @@ export default function Hero() {
           <span className="eyebrow">Restaurant gastronomique · Grenoble</span>
           <h1>Une cuisine de saison,<br /><em>cuisinée à la minute.</em></h1>
           <p className="hero__lede">
-            Sept rue Genissieu, à deux pas de Victor Hugo. Une petite salle feutrée, une carte courte, un chef en salle.
+            7 Rue Genissieu, à deux pas de Victor Hugo. Une petite salle feutrée, une carte courte, un chef en salle.
           </p>
           <div className="hero__ctas">
             <a href="tel:+33476473256" className="btn btn--primary" aria-label="Appeler le 04 76 47 32 56 pour réserver">

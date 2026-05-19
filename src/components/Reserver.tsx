@@ -20,6 +20,9 @@ export default function Reserver() {
             <img
               src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80&auto=format&fit=crop"
               alt="Mur de bouteilles de vin alignées dans une cave éclairée."
+              loading="lazy"
+              width="900"
+              height="1200"
             />
           </div>
           <div className="reserve__panel reveal">
