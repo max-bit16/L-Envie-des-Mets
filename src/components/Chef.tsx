@@ -16,8 +16,8 @@ export default function Chef() {
           </div>
           <div className="chef-text reveal">
             <span className="eyebrow">Le chef</span>
-            <h2>Une table à Grenoble,<br /><em style={{ fontStyle: 'italic' }}>par un enfant de la maison.</em></h2>
-            <p style={{ marginTop: 32 }}>
+            <h2>Une table à Grenoble,<br /><em>par un enfant de la maison.</em></h2>
+            <p>
               Fils de restaurateur, diplômé de l'école hôtelière de Grenoble, le chef a longtemps travaillé en cuisine pour les autres avant d'ouvrir sa propre table. L'Envie des Mets est l'aboutissement d'un métier appris jeune et d'une exigence patiente.
             </p>
             <p>
