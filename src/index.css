@@ -132,7 +132,7 @@ p { margin: 0 0 1em; }
 .nav.is-light .wordmark { color: var(--bg); text-shadow: 0 1px 18px rgba(26,26,26,0.45); }
 .nav.is-light .wordmark__accent { color: var(--cream); }
 .nav.is-light .nav__links a { color: var(--bg); }
-.nav.is-light .nav__phone { color: var(--bg); border-color: rgba(250, 247, 242, 0.7); }
+.nav.is-light .nav__phone { color: var(--bg); }
 @media (max-width: 640px) { .wordmark { font-size: 22px; } }
 
 .nav__links {
@@ -156,12 +156,17 @@ p { margin: 0 0 1em; }
 .nav__phone {
   display: inline-flex; align-items: center; gap: 8px;
   text-decoration: none; font-family: var(--font-sans);
-  font-size: 15px; font-weight: 500; color: var(--ink);
-  padding: 11px 18px; border: 1px solid var(--ink); border-radius: 2px;
-  transition: background 150ms, color 150ms, border-color 150ms;
+  font-size: 15px; font-weight: 400; color: var(--ink);
+  padding: 4px 0; white-space: nowrap; position: relative;
+  transition: color 200ms;
 }
-.nav__phone:hover { background: var(--forest); color: var(--bg); border-color: var(--forest); }
-.nav.is-light .nav__phone:hover { background: var(--bg); color: var(--forest); border-color: var(--bg); }
+.nav__phone::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0;
+  height: 1px; background: var(--wood);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 240ms ease;
+}
+.nav__phone:hover::after { transform: scaleX(1); }
 @media (max-width: 900px) {
   .nav__inner > nav { display: none; }
   .nav__inner { grid-template-columns: 1fr auto; }
