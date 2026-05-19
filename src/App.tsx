@@ -44,6 +44,14 @@ export default function App() {
       return () => window.removeEventListener('scroll', onScroll)
     }
 
+    const sectionIO = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        const link = document.querySelector<HTMLElement>(`.nav__links a[href="#${e.target.id}"]`)
+        if (link) link.classList.toggle('is-active', e.isIntersecting)
+      })
+    }, { rootMargin: '-80px 0px -40% 0px' })
+    document.querySelectorAll<HTMLElement>('section[id]').forEach(s => sectionIO.observe(s))
+
     const io = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target) }
@@ -52,7 +60,7 @@ export default function App() {
 
     items.forEach(i => io.observe(i))
 
-    return () => { window.removeEventListener('scroll', onScroll); io.disconnect() }
+    return () => { window.removeEventListener('scroll', onScroll); io.disconnect(); sectionIO.disconnect() }
   }, [])
 
   return (
