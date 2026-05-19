@@ -38,7 +38,7 @@ export default function Reserver() {
               04 76 47 32 56
             </a>
             <p className="reserve__phone-note">
-              Le chef ou son équipe répondent pendant les services. Laissez un message en dehors, on rappelle.
+              Le chef ou son équipe répondent pendant les services. Laissez un message en dehors, on rappelle. Des tables sont généralement disponibles quelques jours à l'avance.
             </p>
 
             <dl className="reserve__info">

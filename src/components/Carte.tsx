@@ -77,7 +77,7 @@ export default function Carte() {
             <article className="menu-card reveal">
               <span className="menu-card__kicker">Midi en semaine</span>
               <h3>Déjeuner</h3>
-              <p className="menu-card__price">à partir de <strong>20 €</strong></p>
+              <p className="menu-card__price">à partir de <strong>20&nbsp;€</strong></p>
               <p className="menu-card__note">Servi du mardi au samedi midi.</p>
               <div className="menu-card__rule" />
               <ul className="menu-card__steps">
@@ -90,7 +90,7 @@ export default function Carte() {
             <article className="menu-card reveal">
               <span className="menu-card__kicker">Cinq étapes</span>
               <h3>Menu intermédiaire</h3>
-              <p className="menu-card__price"><strong>29 €</strong></p>
+              <p className="menu-card__price"><strong>29&nbsp;€</strong></p>
               <p className="menu-card__note">Le menu qu'on prend le plus souvent.</p>
               <div className="menu-card__rule" />
               <ul className="menu-card__steps">
@@ -105,8 +105,8 @@ export default function Carte() {
             <article className="menu-card reveal">
               <span className="menu-card__kicker">Pour s'installer</span>
               <h3>Menu supérieur</h3>
-              <p className="menu-card__price"><strong>39 €</strong> / <strong>45 €</strong></p>
-              <p className="menu-card__note">39 € le midi · 45 € le soir</p>
+              <p className="menu-card__price"><strong>39&nbsp;€</strong> · <strong>45&nbsp;€</strong></p>
+              <p className="menu-card__note">39&nbsp;€ le midi · 45&nbsp;€ le soir</p>
               <div className="menu-card__rule" />
               <ul className="menu-card__steps">
                 <li>Amuse-bouche</li>

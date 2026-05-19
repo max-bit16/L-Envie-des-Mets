@@ -24,6 +24,9 @@ export default function Chef() {
               Il dessine la carte chaque semaine en fonction du marché, et passe en salle à chaque service. On vient ici parce qu'on mange bien — pas parce qu'on doit s'y comporter d'une certaine manière.
             </p>
             <div className="chef-signature">Le chef-propriétaire, présent en salle.</div>
+            <a href="tel:+33476473256" className="chef__cta" aria-label="Appeler L'Envie des Mets au 04 76 47 32 56">
+              Réserver une table — 04 76 47 32 56
+            </a>
           </div>
         </div>
 
