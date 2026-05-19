@@ -30,6 +30,7 @@ export default function Nav() {
             <li><a href="#valeurs">Valeurs</a></li>
             <li><a href="#carte">Carte</a></li>
             <li><a href="#reserver">Réserver</a></li>
+            <li><a href="#evenements">Événements</a></li>
           </ul>
         </nav>
         <div className="nav__right">
@@ -55,6 +56,7 @@ export default function Nav() {
             <li><a href="#valeurs" onClick={close}>Valeurs</a></li>
             <li><a href="#carte" onClick={close}>Carte</a></li>
             <li><a href="#reserver" onClick={close}>Réserver</a></li>
+            <li><a href="#evenements" onClick={close}>Événements</a></li>
           </ul>
           <a href="tel:+33476473256" className="nav__mobile-phone" onClick={close} aria-label="Appeler L'Envie des Mets au 04 76 47 32 56">
             04 76 47 32 56

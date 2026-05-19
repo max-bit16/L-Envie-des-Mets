@@ -5,6 +5,7 @@ import Chef from './components/Chef'
 import Valeurs from './components/Valeurs'
 import Carte from './components/Carte'
 import Reserver from './components/Reserver'
+import Evenements from './components/Evenements'
 import Footer from './components/Footer'
 import StickyBar from './components/StickyBar'
 
@@ -64,6 +65,7 @@ export default function App() {
         <Valeurs />
         <Carte />
         <Reserver />
+        <Evenements />
       </main>
       <Footer />
       <StickyBar />
