@@ -29,7 +29,7 @@ export default function Footer() {
           >
             Google Maps
           </a>
-          <a href="#">Mentions légales</a>
+
         </nav>
         <p className="footer__legal">© 2026 L'Envie des Mets · Tous droits réservés.</p>
       </div>
