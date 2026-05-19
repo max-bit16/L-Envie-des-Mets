@@ -1,15 +1,4 @@
-const FacebookIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-)
-
-const MapPinIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    <circle cx="12" cy="10" r="3" strokeWidth="1.5" />
-  </svg>
-)
+import { FacebookIcon, MapPinIcon } from './icons'
 
 export default function Reserver() {
   return (
@@ -38,7 +27,7 @@ export default function Reserver() {
               04 76 47 32 56
             </a>
             <p className="reserve__phone-note">
-              Le chef ou son équipe répondent pendant les services. Laissez un message en dehors, on rappelle. Des tables sont généralement disponibles quelques jours à l'avance.
+              Le chef ou son équipe répondent pendant les services. Laissez un message en dehors, on rappelle. Des tables sont disponibles quelques jours à l'avance.
             </p>
 
             <dl className="reserve__info">

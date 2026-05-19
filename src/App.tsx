@@ -7,6 +7,7 @@ import Carte from './components/Carte'
 import Reserver from './components/Reserver'
 import Evenements from './components/Evenements'
 import Footer from './components/Footer'
+import MentionsLegales from './components/MentionsLegales'
 import StickyBar from './components/StickyBar'
 
 export default function App() {
@@ -76,6 +77,7 @@ export default function App() {
         <Evenements />
       </main>
       <Footer />
+      <MentionsLegales />
       <StickyBar />
     </>
   )

@@ -7,7 +7,8 @@
 
 ## Architecture
 - `src/App.tsx` — root, scroll/IO logic, section order
-- `src/components/` — one file per section: Nav, Hero, Chef, Valeurs, Carte, Reserver, Footer, StickyBar
+- `src/components/` — one file per section: Nav, Hero, Chef, Valeurs, Carte, Reserver, Footer, MentionsLegales, StickyBar
+- `src/components/icons.tsx` — shared SVG icons (PhoneIcon, MapPinIcon, FacebookIcon) — import from here, never redefine inline
 - `src/index.css` — single source of truth for all tokens and component styles
 - `public/` — static assets (favicon.svg, icons.svg)
 
@@ -24,6 +25,20 @@
 ## Assets
 - `src/assets/hero.png` — placeholder, replace with real photo
 - `public/icons.svg` — sprite sheet for all SVG icons (use `<use href="/icons.svg#...">`)
+
+## À configurer avant livraison
+
+- **Mentions légales** : remplir les `[À COMPLÉTER]` dans `src/components/MentionsLegales.tsx` (SIRET, nom de l'éditeur)
+- **Instagram** : décommenter le lien dans `Footer.tsx` une fois le compte `@lenviedesmets` créé
+- **Photos** : remplacer les URLs Unsplash par les vraies photos du restaurant (Hero, Chef, Valeurs, etc.)
+- **Google Business Profile** : vérifier et relier au domaine réel
+- **Google Search Console** : soumettre le sitemap après migration
+
+## Migration domaine
+
+Lors du passage au domaine réel, `grep -r "l-envie-des-mets.vercel.app" .` liste tous les endroits à mettre à jour :
+- `index.html` — canonical, og:url, og:image, twitter:image, JSON-LD `@id` et `url`
+- `public/sitemap.xml` — `<loc>`
 
 ## Commit convention
 `feat:`, `fix:`, `chore:`, `style:`, `refactor:` — lowercase, imperative
