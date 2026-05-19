@@ -6,6 +6,8 @@ export default function Chef() {
           <div className="chef-photo reveal">
             <img
               src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900&q=85&auto=format&fit=crop"
+              srcSet="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=400&q=85&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900&q=85&auto=format&fit=crop 900w"
+              sizes="(max-width: 900px) 100vw, 40vw"
               alt="Toits anciens de Grenoble en contrebas de la chaîne de Belledonne enneigée."
               loading="lazy"
               width="800"
@@ -29,6 +31,8 @@ export default function Chef() {
           <img
             className="chef-breath__img"
             src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop"
+            srcSet="https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop 1200w"
+            sizes="100vw"
             alt="Étal de marché abondant : melons, tomates, courges, fleurs, sous des platanes."
             loading="lazy"
             width="1200"

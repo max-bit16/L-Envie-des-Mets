@@ -12,6 +12,8 @@ export default function Carte() {
             <div className="gallery__img gallery__img--tall">
               <img
                 src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85&auto=format&fit=crop"
+                srcSet="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=85&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85&auto=format&fit=crop 800w"
+                sizes="(max-width: 900px) 100vw, 55vw"
                 alt="Assiette dressée : queue de homard, caviar, fleurs comestibles."
                 loading="lazy"
                 width="800"
@@ -29,6 +31,8 @@ export default function Carte() {
               <div className="gallery__img gallery__img--wide">
                 <img
                   src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=85&auto=format&fit=crop"
+                  srcSet="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&q=85&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=85&auto=format&fit=crop 800w"
+                  sizes="(max-width: 900px) 100vw, 35vw"
                   alt="Pavé de poisson grillé, betterave dorée, suprêmes d'orange, sauce orange."
                   loading="lazy"
                   width="800"
@@ -45,6 +49,8 @@ export default function Carte() {
               <div className="gallery__img gallery__img--wide">
                 <img
                   src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=85&auto=format&fit=crop"
+                  srcSet="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&q=85&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=85&auto=format&fit=crop 800w"
+                  sizes="(max-width: 900px) 100vw, 35vw"
                   alt="Assiette végétale colorée : carottes glacées, figue, grenade, herbes."
                   loading="lazy"
                   width="800"
@@ -100,7 +106,7 @@ export default function Carte() {
               <span className="menu-card__kicker">Pour s'installer</span>
               <h3>Menu supérieur</h3>
               <p className="menu-card__price"><strong>39 €</strong> / <strong>45 €</strong></p>
-              <p className="menu-card__note">Avec variations selon l'arrivage.</p>
+              <p className="menu-card__note">39 € le midi · 45 € le soir</p>
               <div className="menu-card__rule" />
               <ul className="menu-card__steps">
                 <li>Amuse-bouche</li>

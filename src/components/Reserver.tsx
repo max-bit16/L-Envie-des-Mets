@@ -19,6 +19,8 @@ export default function Reserver() {
           <div className="reserve__photo reveal">
             <img
               src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80&auto=format&fit=crop"
+              srcSet="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80&auto=format&fit=crop 1200w"
+              sizes="(max-width: 900px) 100vw, 40vw"
               alt="Mur de bouteilles de vin alignées dans une cave éclairée."
               loading="lazy"
               width="900"

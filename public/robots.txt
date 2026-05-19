@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://l-envie-des-mets.vercel.app/sitemap.xml

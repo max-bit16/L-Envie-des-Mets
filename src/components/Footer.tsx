@@ -29,7 +29,8 @@ export default function Footer() {
           >
             Google Maps
           </a>
-
+          {/* Instagram — à activer une fois le compte créé */}
+          {/* <a href="https://www.instagram.com/lenviedesmets" target="_blank" rel="noopener noreferrer">Instagram</a> */}
         </nav>
         <p className="footer__legal">© 2026 L'Envie des Mets · Tous droits réservés.</p>
       </div>

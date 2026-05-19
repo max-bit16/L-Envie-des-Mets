@@ -12,6 +12,8 @@ export default function Valeurs() {
               <div className="value__img">
                 <img
                   src="https://images.unsplash.com/photo-1504279577054-acfeccf8fc52?w=800&q=80&auto=format&fit=crop"
+                  srcSet="https://images.unsplash.com/photo-1504279577054-acfeccf8fc52?w=400&q=80&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1504279577054-acfeccf8fc52?w=800&q=80&auto=format&fit=crop 800w"
+                  sizes="(max-width: 900px) 100vw, 33vw"
                   alt="Halle d'un marché provençal, paniers de légumes sous les platanes."
                   loading="lazy"
                   width="800"
@@ -25,7 +27,9 @@ export default function Valeurs() {
             <article className="value reveal">
               <div className="value__img">
                 <img
-                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&auto=format&fit=crop"
+                  srcSet="https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&q=80&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&auto=format&fit=crop 800w"
+                  sizes="(max-width: 900px) 100vw, 33vw"
                   alt="Halle couverte d'un marché, un maraîcher prépare un bouquet de poireaux."
                   loading="lazy"
                   width="800"
@@ -37,7 +41,7 @@ export default function Valeurs() {
             </article>
 
             <article className="value value--minute reveal">
-              <p className="value__big">À la minute.</p>
+              <h3 className="value__big">À la minute.</h3>
               <p>Chaque assiette est dressée quand vous la commandez. C'est plus long, c'est plus juste — c'est comme ça.</p>
             </article>
           </div>

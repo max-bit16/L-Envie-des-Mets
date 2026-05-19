@@ -7,7 +7,19 @@ const PhoneIcon = () => (
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="hero__bg" id="heroBg" aria-hidden="true" />
+      <img
+        className="hero__bg"
+        id="heroBg"
+        src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=1920&q=85&auto=format&fit=crop"
+        srcSet="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=85&auto=format&fit=crop 800w, https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=1200&q=85&auto=format&fit=crop 1200w, https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=1920&q=85&auto=format&fit=crop 1920w"
+        sizes="100vw"
+        alt=""
+        loading="eager"
+        fetchPriority="high"
+        width="1920"
+        height="1080"
+        aria-hidden="true"
+      />
       <div className="hero__overlay" aria-hidden="true" />
       <div className="hero__inner">
         <div className="hero__content">
