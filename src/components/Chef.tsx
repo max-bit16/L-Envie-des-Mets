@@ -5,7 +5,7 @@ export default function Chef() {
         <div className="chef-grid">
           <div className="chef-photo reveal">
             <img
-              src="https://images.unsplash.com/photo-97Tf4XJCrZ4?auto=format&fit=crop&w=900&q=85"
+              src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900&q=85&auto=format&fit=crop"
               alt="Toits anciens de Grenoble en contrebas de la chaîne de Belledonne enneigée."
             />
           </div>
@@ -25,7 +25,7 @@ export default function Chef() {
         <figure className="chef-breath reveal" style={{ marginBlockEnd: 0 }}>
           <img
             className="chef-breath__img"
-            src="https://images.unsplash.com/photo--gOUx23DNks?auto=format&fit=crop&w=1600&q=85"
+            src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop"
             alt="Étal de marché abondant : melons, tomates, courges, fleurs, sous des platanes."
           />
           <figcaption className="chef-breath__cap">Le marché, chaque matin.</figcaption>

@@ -11,7 +11,7 @@ export default function Valeurs() {
             <article className="value reveal">
               <div className="value__img">
                 <img
-                  src="https://images.unsplash.com/photo-PBvFpF3f624?auto=format&fit=crop&w=800&q=85"
+                  src="https://images.unsplash.com/photo-1504279577054-acfeccf8fc52?w=1920&q=80&auto=format&fit=crop"
                   alt="Halle d'un marché provençal, paniers de légumes sous les platanes."
                 />
               </div>
@@ -22,7 +22,7 @@ export default function Valeurs() {
             <article className="value reveal">
               <div className="value__img">
                 <img
-                  src="https://images.unsplash.com/photo-Ft-PrGvzXZ4?auto=format&fit=crop&w=800&q=85"
+                  src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop"
                   alt="Halle couverte d'un marché, un maraîcher prépare un bouquet de poireaux."
                 />
               </div>

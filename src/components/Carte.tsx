@@ -11,7 +11,7 @@ export default function Carte() {
           <figure className="reveal">
             <div className="gallery__img gallery__img--tall">
               <img
-                src="https://images.unsplash.com/photo-9osoakefXmQ?auto=format&fit=crop&w=1000&q=85"
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85&auto=format&fit=crop"
                 alt="Assiette dressée : queue de homard, caviar, fleurs comestibles."
               />
             </div>
@@ -25,7 +25,7 @@ export default function Carte() {
             <figure className="reveal">
               <div className="gallery__img gallery__img--wide">
                 <img
-                  src="https://images.unsplash.com/photo-LgTyii0GDKQ?auto=format&fit=crop&w=800&q=85"
+                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=85&auto=format&fit=crop"
                   alt="Pavé de poisson grillé, betterave dorée, suprêmes d'orange, sauce orange."
                 />
               </div>
@@ -38,7 +38,7 @@ export default function Carte() {
             <figure className="reveal">
               <div className="gallery__img gallery__img--wide">
                 <img
-                  src="https://images.unsplash.com/photo-UtcOhVC-3VU?auto=format&fit=crop&w=800&q=85"
+                  src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=85&auto=format&fit=crop"
                   alt="Assiette végétale colorée : carottes glacées, figue, grenade, herbes."
                 />
               </div>

@@ -18,7 +18,7 @@ export default function Reserver() {
         <div className="reserve-grid">
           <div className="reserve__photo reveal">
             <img
-              src="https://images.unsplash.com/photo-CPMZguYURMw?auto=format&fit=crop&w=900&q=85"
+              src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1200&q=80&auto=format&fit=crop"
               alt="Mur de bouteilles de vin alignées dans une cave éclairée."
             />
           </div>
