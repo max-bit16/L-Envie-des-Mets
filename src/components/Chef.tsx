@@ -27,7 +27,7 @@ export default function Chef() {
           </div>
         </div>
 
-        <figure className="chef-breath reveal" style={{ marginBlockEnd: 0 }}>
+        <figure className="chef-breath reveal">
           <img
             className="chef-breath__img"
             src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop"

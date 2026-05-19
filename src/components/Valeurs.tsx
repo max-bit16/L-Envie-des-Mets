@@ -1,7 +1,7 @@
 export default function Valeurs() {
   return (
     <>
-      <section className="section values" id="valeurs" style={{ paddingTop: 0 }}>
+      <section className="section values" id="valeurs">
         <div className="frame">
           <div className="values__heading reveal">
             <span className="eyebrow">Trois gestes, en cuisine</span>

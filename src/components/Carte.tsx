@@ -2,7 +2,7 @@ export default function Carte() {
   return (
     <section className="section" id="carte">
       <div className="frame">
-        <div className="values__heading reveal" style={{ marginBottom: 64 }}>
+        <div className="values__heading reveal">
           <span className="eyebrow">Carte de saison · Mai 2026</span>
           <h2>Trois plats, <em>en mémoire d'un service.</em></h2>
         </div>
@@ -66,7 +66,7 @@ export default function Carte() {
         </div>
       </div>
 
-      <div className="menus" style={{ marginTop: 96 }}>
+      <div className="menus">
         <div className="frame">
           <div className="menus__head reveal">
             <span className="eyebrow eyebrow--wood">Les menus</span>
