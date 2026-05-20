@@ -11,9 +11,17 @@ export default function Nav() {
     const firstLink = document.querySelector<HTMLAnchorElement>('#nav-mobile a')
     firstLink?.focus()
 
+    document.body.style.overflow = 'hidden'
+
     const onScroll = () => setOpen(false)
+    const onKeyDown = (e: KeyboardEvent) => { if (e.key === 'Escape') close() }
     window.addEventListener('scroll', onScroll, { passive: true, once: true })
-    return () => window.removeEventListener('scroll', onScroll)
+    window.addEventListener('keydown', onKeyDown)
+    return () => {
+      document.body.style.overflow = ''
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('keydown', onKeyDown)
+    }
   }, [open])
 
   const close = () => {
@@ -33,7 +41,6 @@ export default function Nav() {
             <li><a href="#valeurs">Valeurs</a></li>
             <li><a href="#carte">Carte</a></li>
             <li><a href="#reserver">Réserver</a></li>
-            <li><a href="#evenements">Événements</a></li>
           </ul>
         </nav>
         <div className="nav__right">
@@ -64,7 +71,6 @@ export default function Nav() {
           <li><a href="#valeurs" onClick={close}>Valeurs</a></li>
           <li><a href="#carte" onClick={close}>Carte</a></li>
           <li><a href="#reserver" onClick={close}>Réserver</a></li>
-          <li><a href="#evenements" onClick={close}>Événements</a></li>
         </ul>
         <a href="tel:+33476473256" className="nav__mobile-phone" onClick={close} aria-label="Appeler L'Envie des Mets au 04 76 47 32 56">
           04 76 47 32 56

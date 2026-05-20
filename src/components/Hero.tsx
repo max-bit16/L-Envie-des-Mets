@@ -40,7 +40,7 @@ export default function Hero() {
             <span className="hero__meta-sep" aria-hidden="true" />
             <span>Déjeuner dès 20&nbsp;€</span>
             <span className="hero__meta-sep" aria-hidden="true" />
-            <span><span className="stars" aria-hidden="true">★</span> 4,7 · 326 avis Google</span>
+            <span aria-label="Note : 4,7 sur 5 · 326 avis Google"><span className="stars" aria-hidden="true">★</span> 4,7 · 326 avis Google</span>
           </div>
         </div>
       </div>

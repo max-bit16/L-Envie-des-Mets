@@ -14,7 +14,7 @@ export default function Carte() {
                 src="/images/plat-saint-jacques-800.webp"
                 srcSet="/images/plat-saint-jacques-400.webp 400w, /images/plat-saint-jacques-800.webp 800w"
                 sizes="(max-width: 900px) 100vw, 55vw"
-                alt="Assiette dressée : queue de homard, caviar, fleurs comestibles."
+                alt="Noix de Saint-Jacques dorées, beurre noisette, herbes fraîches."
                 loading="lazy"
                 width="800"
                 height="1000"
@@ -108,7 +108,7 @@ export default function Carte() {
             <article className="menu-card reveal">
               <span className="menu-card__kicker">Pour s'installer</span>
               <h3>Menu supérieur</h3>
-              <p className="menu-card__price"><strong>39&nbsp;€</strong> · <strong>45&nbsp;€</strong></p>
+              <p className="menu-card__price">à partir de <strong>39&nbsp;€</strong></p>
               <p className="menu-card__note">39&nbsp;€ le midi · 45&nbsp;€ le soir</p>
               <div className="menu-card__rule" />
               <ul className="menu-card__steps">
