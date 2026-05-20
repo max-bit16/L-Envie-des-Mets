@@ -27,13 +27,13 @@ export default function Valeurs() {
             <article className="value reveal">
               <div className="value__img">
                 <img
-                  src="/images/marche-legumes-900.webp"
-                  srcSet="/images/marche-legumes-400.webp 400w, /images/marche-legumes-900.webp 900w"
-                  sizes="(max-width: 900px) 100vw, 33vw"
-                  alt="Halle couverte d'un marché, un maraîcher prépare un bouquet de poireaux."
+                  src="/images/marche-provence-800.webp"
+                  srcSet="/images/marche-provence-400.webp 400w, /images/marche-provence-800.webp 800w"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  alt="Étal de marché provençal sous les platanes"
                   loading="lazy"
-                  width="900"
-                  height="1125"
+                  width="800"
+                  height="1000"
                 />
               </div>
               <h3><em>Du marché.</em></h3>

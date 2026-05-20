@@ -7,13 +7,13 @@ export default function Reserver() {
         <div className="reserve-grid">
           <div className="reserve__photo reveal">
             <img
-              src="/images/cave-vins-1200.webp"
-              srcSet="/images/cave-vins-600.webp 600w, /images/cave-vins-1200.webp 1200w"
-              sizes="(max-width: 900px) 100vw, 40vw"
-              alt="Mur de bouteilles de vin alignées dans une cave éclairée."
+              src="/images/salle-restaurant-1000.webp"
+              srcSet="/images/salle-restaurant-500.webp 500w, /images/salle-restaurant-1000.webp 1000w"
+              sizes="(max-width: 768px) 100vw, 45vw"
+              alt="Salle du restaurant L'Envie des Mets, ambiance feutrée"
               loading="lazy"
-              width="900"
-              height="1200"
+              width="1000"
+              height="1250"
             />
           </div>
           <div className="reserve__panel reveal">

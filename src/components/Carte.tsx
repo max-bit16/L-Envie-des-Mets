@@ -11,10 +11,9 @@ export default function Carte() {
           <figure className="reveal">
             <div className="gallery__img gallery__img--tall">
               <img
-                src="/images/plat-saint-jacques-800.webp"
-                srcSet="/images/plat-saint-jacques-400.webp 400w, /images/plat-saint-jacques-800.webp 800w"
+                src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=85&auto=format&fit=crop"
                 sizes="(max-width: 900px) 100vw, 55vw"
-                alt="Noix de Saint-Jacques dorées, beurre noisette, herbes fraîches."
+                alt="Noix de Saint-Jacques dorées, beurre noisette"
                 loading="lazy"
                 width="800"
                 height="1000"
@@ -31,10 +30,9 @@ export default function Carte() {
             <figure className="reveal" data-delay="100">
               <div className="gallery__img gallery__img--wide">
                 <img
-                  src="/images/plat-saumon-800.webp"
-                  srcSet="/images/plat-saumon-400.webp 400w, /images/plat-saumon-800.webp 800w"
+                  src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=85&auto=format&fit=crop"
                   sizes="(max-width: 900px) 100vw, 35vw"
-                  alt="Pavé de poisson grillé, betterave dorée, suprêmes d'orange, sauce orange."
+                  alt="Dos de cabillaud, agrumes confits"
                   loading="lazy"
                   width="800"
                   height="600"
@@ -50,10 +48,9 @@ export default function Carte() {
             <figure className="reveal" data-delay="200">
               <div className="gallery__img gallery__img--wide">
                 <img
-                  src="/images/plat-dessert-800.webp"
-                  srcSet="/images/plat-dessert-400.webp 400w, /images/plat-dessert-800.webp 800w"
+                  src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=85&auto=format&fit=crop"
                   sizes="(max-width: 900px) 100vw, 35vw"
-                  alt="Assiette végétale colorée : carottes glacées, figue, grenade, herbes."
+                  alt="Gratin de framboises, cœur glacé"
                   loading="lazy"
                   width="800"
                   height="600"
