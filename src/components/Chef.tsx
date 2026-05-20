@@ -5,17 +5,18 @@ export default function Chef() {
         <div className="chef-grid">
           <div className="chef-photo reveal">
             <img
-              src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900&q=85&auto=format&fit=crop"
-              srcSet="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=400&q=85&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=900&q=85&auto=format&fit=crop 900w"
+              src="/images/grenoble-alpes-900.webp"
+              srcSet="/images/grenoble-alpes-400.webp 400w, /images/grenoble-alpes-900.webp 900w"
               sizes="(max-width: 900px) 100vw, 40vw"
               alt="Toits anciens de Grenoble en contrebas de la chaîne de Belledonne enneigée."
               loading="lazy"
-              width="800"
-              height="1000"
+              width="900"
+              height="1125"
             />
           </div>
-          <div className="chef-text reveal">
+          <div className="chef-text reveal" data-delay="100">
             <span className="eyebrow">Le chef</span>
+            <span className="deco-quote" aria-hidden="true">"</span>
             <h2>Une table à Grenoble,<br /><em>par un enfant de la maison.</em></h2>
             <p>
               Fils de restaurateur, diplômé de l'école hôtelière de Grenoble, le chef a longtemps travaillé en cuisine pour les autres avant d'ouvrir sa propre table. L'Envie des Mets est l'aboutissement d'un métier appris jeune et d'une exigence patiente.
@@ -33,8 +34,8 @@ export default function Chef() {
         <figure className="chef-breath reveal">
           <img
             className="chef-breath__img"
-            src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop"
-            srcSet="https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&q=80&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80&auto=format&fit=crop 1200w"
+            src="/images/marche-legumes-1200.webp"
+            srcSet="/images/marche-legumes-400.webp 400w, /images/marche-legumes-900.webp 900w, /images/marche-legumes-1200.webp 1200w"
             sizes="100vw"
             alt="Étal de marché abondant : melons, tomates, courges, fleurs, sous des platanes."
             loading="lazy"

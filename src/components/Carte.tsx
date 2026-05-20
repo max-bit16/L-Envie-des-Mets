@@ -3,7 +3,7 @@ export default function Carte() {
     <section className="section" id="carte">
       <div className="frame">
         <div className="values__heading reveal">
-          <span className="eyebrow">Carte de saison · Mai 2026</span>
+          <div className="label-lined"><span className="eyebrow">Carte de saison · Mai 2026</span></div>
           <h2>Trois plats, <em>en mémoire d'un service.</em></h2>
         </div>
 
@@ -11,14 +11,15 @@ export default function Carte() {
           <figure className="reveal">
             <div className="gallery__img gallery__img--tall">
               <img
-                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85&auto=format&fit=crop"
-                srcSet="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=85&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85&auto=format&fit=crop 800w"
+                src="/images/plat-saint-jacques-800.webp"
+                srcSet="/images/plat-saint-jacques-400.webp 400w, /images/plat-saint-jacques-800.webp 800w"
                 sizes="(max-width: 900px) 100vw, 55vw"
                 alt="Assiette dressée : queue de homard, caviar, fleurs comestibles."
                 loading="lazy"
                 width="800"
                 height="1000"
               />
+              <span className="plat-card__label">Saint-Jacques</span>
             </div>
             <figcaption className="gallery__caption">
               Noix de Saint-Jacques, beurre noisette.
@@ -27,17 +28,18 @@ export default function Carte() {
           </figure>
 
           <div className="gallery__col">
-            <figure className="reveal">
+            <figure className="reveal" data-delay="100">
               <div className="gallery__img gallery__img--wide">
                 <img
-                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=85&auto=format&fit=crop"
-                  srcSet="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&q=85&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=85&auto=format&fit=crop 800w"
+                  src="/images/plat-saumon-800.webp"
+                  srcSet="/images/plat-saumon-400.webp 400w, /images/plat-saumon-800.webp 800w"
                   sizes="(max-width: 900px) 100vw, 35vw"
                   alt="Pavé de poisson grillé, betterave dorée, suprêmes d'orange, sauce orange."
                   loading="lazy"
                   width="800"
                   height="600"
                 />
+                <span className="plat-card__label">Cabillaud</span>
               </div>
               <figcaption className="gallery__caption gallery__caption--sm">
                 Dos de cabillaud, agrumes confits.
@@ -45,17 +47,18 @@ export default function Carte() {
               </figcaption>
             </figure>
 
-            <figure className="reveal">
+            <figure className="reveal" data-delay="200">
               <div className="gallery__img gallery__img--wide">
                 <img
-                  src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=85&auto=format&fit=crop"
-                  srcSet="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400&q=85&auto=format&fit=crop 400w, https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=85&auto=format&fit=crop 800w"
+                  src="/images/plat-dessert-800.webp"
+                  srcSet="/images/plat-dessert-400.webp 400w, /images/plat-dessert-800.webp 800w"
                   sizes="(max-width: 900px) 100vw, 35vw"
                   alt="Assiette végétale colorée : carottes glacées, figue, grenade, herbes."
                   loading="lazy"
                   width="800"
                   height="600"
                 />
+                <span className="plat-card__label">Framboises</span>
               </div>
               <figcaption className="gallery__caption gallery__caption--sm">
                 Gratin de framboises, cœur glacé.
@@ -87,7 +90,7 @@ export default function Carte() {
               </ul>
             </article>
 
-            <article className="menu-card reveal">
+            <article className="menu-card menu-card--featured reveal">
               <span className="menu-card__kicker">Cinq étapes</span>
               <h3>Menu intermédiaire</h3>
               <p className="menu-card__price"><strong>29&nbsp;€</strong></p>
