@@ -6,8 +6,8 @@ export default function Hero() {
       <img
         className="hero__bg"
         id="heroBg"
-        src="/images/hero-marche-1920.webp"
-        srcSet="/images/hero-marche-800.webp 800w, /images/hero-marche-1920.webp 1920w"
+        src="/images/marche-provence-1920.webp"
+        srcSet="/images/marche-provence-800.webp 800w, /images/marche-provence-1920.webp 1920w"
         sizes="100vw"
         alt=""
         loading="eager"

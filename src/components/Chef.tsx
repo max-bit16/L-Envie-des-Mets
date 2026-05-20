@@ -5,13 +5,13 @@ export default function Chef() {
         <div className="chef-grid">
           <div className="chef-photo reveal">
             <img
-              src="/images/grenoble-alpes-900.webp"
-              srcSet="/images/grenoble-alpes-400.webp 400w, /images/grenoble-alpes-900.webp 900w"
-              sizes="(max-width: 900px) 100vw, 40vw"
-              alt="Toits anciens de Grenoble en contrebas de la chaîne de Belledonne enneigée."
+              src="/images/marche-couvert-1200.webp"
+              srcSet="/images/marche-couvert-800.webp 800w, /images/marche-couvert-1200.webp 1200w"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              alt="Marché couvert, vendeur de légumes verts au travail parmi les étals."
               loading="lazy"
-              width="900"
-              height="1125"
+              width="1200"
+              height="1500"
             />
           </div>
           <div className="chef-text reveal" data-delay="100">

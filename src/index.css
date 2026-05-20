@@ -386,7 +386,7 @@ p { margin: 0 0 1em; }
 }
 .transition-band__bg {
   position: absolute; inset: 0;
-  background-image: url("/images/grenoble-alpes-900.webp");
+  background-image: url("/images/marche-exotique-1920.webp");
   background-size: cover; background-position: center 60%;
 }
 .transition-band__overlay { position: absolute; inset: 0; background: rgba(26,26,26,0.45); }
